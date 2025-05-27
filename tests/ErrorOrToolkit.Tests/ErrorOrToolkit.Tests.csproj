@@ -15,8 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\ErrorOrToolkit.Extensions\ErrorOrToolkit.Extensions.csproj" />
-    <ProjectReference Include="..\..\src\ErrorOrToolkit.Json\ErrorOrToolkit.Json.csproj" />
+    <ProjectReference Include="..\..\src\ErrorOrToolkit\ErrorOrToolkit.csproj" />
   </ItemGroup>
 
   <ItemGroup>

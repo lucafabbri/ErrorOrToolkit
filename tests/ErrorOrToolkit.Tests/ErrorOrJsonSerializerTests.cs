@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ErrorOr;
 
-namespace ErrorOr.Tests;
+namespace ErrorOrToolkit.Tests;
 
 /// <summary>
 /// The dumb class
