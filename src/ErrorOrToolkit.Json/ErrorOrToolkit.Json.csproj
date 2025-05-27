@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <Version>0.0.1</Version>
+    <Authors>Luca Fabbri</Authors>
+    <Description>Toolkit for ErrorOr library with JSON serialization support.</Description>
+    <PackageId>ErrorOrToolkit.Json</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="ErrorOr" Version="2.1.0" />
+  </ItemGroup>
+</Project>

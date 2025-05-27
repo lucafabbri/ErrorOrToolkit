@@ -1,0 +1,19 @@
+<Project>
+
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageOutputPath>..\nupkgs</PackageOutputPath>
+    <LangVersion>latest</LangVersion>
+    <RepositoryUrl></RepositoryUrl>
+    <Authors>Luca Fabbri</Authors>
+    <RepositoryType>git</RepositoryType>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <FileVersion>$(Version)</FileVersion>
+    <PackageTags>ErrorOr</PackageTags>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
