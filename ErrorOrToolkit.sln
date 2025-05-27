@@ -9,6 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorOrToolkit.Json.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorOrToolkit.Extensions", "src\ErrorOrToolkit.Extensions\ErrorOrToolkit.Extensions.csproj", "{DFC40C0C-820D-4BF9-ACFD-2AE9A3E7BD27}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6C83A596-D32D-B35F-00DD-F0C99B673980}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{A7AF142C-0759-4544-9EC0-D77D27B74B03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementi di soluzione", "Elementi di soluzione", "{9DF70304-0A22-CE1E-AA12-D5904EE55694}"
+	ProjectSection(SolutionItems) = preProject
+		Common.props = Common.props
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +67,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57153B95-806E-4715-8325-25B8B382D253} = {A7AF142C-0759-4544-9EC0-D77D27B74B03}
+		{89468B04-2D13-4233-849A-8231D8560363} = {6C83A596-D32D-B35F-00DD-F0C99B673980}
+		{DFC40C0C-820D-4BF9-ACFD-2AE9A3E7BD27} = {A7AF142C-0759-4544-9EC0-D77D27B74B03}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B46BD43-6B86-44C5-BC33-2002A439BCD8}
